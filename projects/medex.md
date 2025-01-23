@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/medex/logo.jpg
 title: "MedEx"
 date: 2020
 published: true
@@ -13,12 +13,6 @@ labels:
   - Ecommerce
 summary: "A group of friends and I decided to try to solve the issue of delivering pharmaceutical supplies to Filipino citizens during the COVID-19 pandemic."
 ---
-
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
 
 MedEx was a delivery app that never got released. What primarily distinguished it from other delivery apps at the time was its novel focus on pharmaceutical supplies such as rubbing alcohol, prescription medicine, health supplements, vitamins, and more. Back in 2020, this was not very common mainly because of the pandemic, but also, during this time, online food delivery through mobile applications was only an emerging industry. Another thing that distinguished this project was how young the members of the group were. We had an older friend who knew more about software engineering more than us and he acted as our consultant during this project. I believe I was the youngest in the gorup being only 14 or 15 years old. My peers were a year older than me.
 
