@@ -11,7 +11,7 @@ labels:
 ---
 
 <div class="text-center p-4">
-<img width="500px" class="rounded float-start pe-4" src="../img/essays/swing.jpg">
+<img width="500px" class="rounded float-start pe-4" src="../img/essays/swing.png">
 </div>
 
 ## A Fresh Start
