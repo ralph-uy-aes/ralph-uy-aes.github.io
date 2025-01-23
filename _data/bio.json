@@ -1,46 +1,46 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Ralph Uy",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://github.com/ralph-uy-aes.png",
+    "email": "uyr@hawaii.edu",
+    "phone": "808-469-8963",
+    "website": "https://ralph-uy-aes.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "ralph-uy-aes", "url": "http://github.com/ralph-uy-aes" },
+      { "network": "linkedin", "username": "Ralph Uy", "url": "https://www.linkedin.com/in/ralph-uy-116188212/" },
+      { "network": "instagram", "username": "uys.cooti", "url": "https://www.instagram.com/uys.cooti/" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Cybersecurity - Networking" },
+    { "name": "Vintage Hardware, Systems, Electronics" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Working Out, Lifting" },
+    { "name": "Traveling" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Python", "Kotlin", "" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Arch Linux", "Ubuntu", "Git/GitHub", "g++", "Android Studio", "Vim" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2026)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2023-08-21",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": [ "ICS 111 - Intro to Computer Science I", "ICS 141 - Discrete Mathematics I", "ICS 235 - Machine Learning Methods",
+                   "ICS 211 - Intro to Computer Science II", "ICS 241 - Discrete Mathematics II", "ICS 212 - Program Structure", "ICS 311 - Algorithms",
+                   "ICS 314 - Software Engineering I", "ICS 355 - Security and Trust I: Resource Protections", "MATH 307 - Linear Algebra & Differential Equations"]
     }
   ],
   "work": [
