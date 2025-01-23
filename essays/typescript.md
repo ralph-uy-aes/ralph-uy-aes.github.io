@@ -7,7 +7,7 @@ date: 2024-01-22
 published: true
 labels:
   - Software Engineering
-  - Introduction
+  - Typescript
 ---
 
 <div class="text-center p-4">
