@@ -6,11 +6,11 @@ title: "American Nightmare"
 date: 2022-05-12
 published: false
 labels:
-  - Imigration
+  - Immigration
   - America
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
+<img width="100px" class="rounded float-start pe-4" src="../img/essays/stand.jpg">
 
 American Nightmare
 
