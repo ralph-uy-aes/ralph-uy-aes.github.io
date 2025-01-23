@@ -4,7 +4,7 @@ type: essay
 title: "American Nightmare"
 # All dates must be YYYY-MM-DD format!
 date: 2022-05-12
-published: false
+published: true
 labels:
   - Immigration
   - America
