@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/medex/logo.jpg
+image: img/Medex/logo.jpg
 title: "MedEx"
 date: 2020
 published: true
