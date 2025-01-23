@@ -16,7 +16,7 @@ summary: "My internship at Berkeley Labs under the CD06 Project: Finding New Dat
 ---
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/esnet/zoom.jpg" class="img-thumbnail" >
+  <img width="700px" src="../img/esnet/zoom.jpg" class="img-thumbnail" >
 </div>
 
 My first internship experience was at Lawrence Berkeley National Laboratory. I was in a group of three under the CD06 project. We were tasked to create new methods for visualizing data for network traffic. We were given ESnet's raw network trafficd data and were trained to create new methods of data visualization. We ended up creating three different methods for ESnet.
@@ -30,6 +30,6 @@ For more information and my feature on Berkeley's site: https://www.es.net/news-
 Some more images...
 <div class="text-center p-4">
   <img width="200px" src="../img/esnet/hiveplot.jpg" class="img-thumbnail" >
-  <img width="300px" src="../img/esnet/personalstatement.jpg" class="img-thumbnail" >
-  <img width="400px" src="../img/esnet/group.jpg" class="img-thumbnail" >
+  <img width="500px" src="../img/esnet/personalstatement.jpg" class="img-thumbnail" >
+  <img width="500px" src="../img/esnet/EinR2023-1b.jpg" class="img-thumbnail" >
 </div>
