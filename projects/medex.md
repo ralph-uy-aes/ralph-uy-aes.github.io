@@ -22,8 +22,62 @@ For this project, I was the UI/UX designer, meaning I mostly worked on the front
 
 We never got to finish this project due to lockdown restrictions being lifted and because we had a lot of schoolwork at the time.
 
-All of the source code has been wiped because my old PC experienced hardware failure. This was about 5 or more years ago, so unfortunately, as of now, backups are not available, but my friends may have some copies.
-
+This is the android manifest of MedEx.
 ```cpp
-:(
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.empiricus.medex">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MedEx"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme"
+        android:hardwareAccelerated="true">
+        <activity android:name=".main.SignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.SignUp"> </activity>
+        <activity android:name=".main.ForgotPassword" > </activity>
+        <activity android:name=".main.Home"> </activity>
+        <activity android:name=".main.ItemMain"/>
+        <activity android:name=".main.DriverSignIn" />
+        <activity android:name=".main.DriverSignUp"/>
+        <activity android:name=".main.DriverSignUp2"/>
+        <activity android:name=".main.DriverSignUp3"/>
+        <activity android:name=".main.MerchantSignIn"/>
+        <activity android:name=".main.MerchantHome"/>
+        <activity android:name=".main.MerchantSignUp"/>
+        <activity android:name=".main.MerchantSignUp2"/>
+        <activity android:name=".main.Checkout"/>
+        <activity android:name=".main.MerchantSignUp3"/>
+        <activity android:name=".main.OnBoarding"> </activity>
+
+        <service
+            android:name="com.empiricus.medex.fragments.FetchAddressIntentService"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBZPTiJOwLbqyUVQzwf3IOh4S0zGeVuYdo" />
+
+    </application>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+</manifest>
 ```
