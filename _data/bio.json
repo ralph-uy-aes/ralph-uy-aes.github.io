@@ -15,16 +15,16 @@
     ]
   },
   "interests": [
-    { "name": "Cybersecurity - Networking" },
-    { "name": "Vintage Hardware, Systems, Electronics" },
+    { "name": "Cybersecurity and Networking" },
+    { "name": "Vintage Hardware and Electronics" },
     { "name": "Artificial Intelligence" },
-    { "name": "Working Out, Lifting" },
+    { "name": "Weightlifting" },
     { "name": "Traveling" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Python", "Kotlin", "" ]
+      "keywords": [ "C", "C++", "Java", "Python", "Kotlin", "React" ]
     },
     {
       "name": "Toolsets/OS",
@@ -45,69 +45,62 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Professional Security Consultants, Inc.",
+      "position": "Security Officer",
+      "website": "https://www.pscsite.com",
+      "startDate": "2023-10",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Full time employee tasked to ensure workplace safety for both patients and staff.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Maintain a safe workplace by searching and securing contrabands.",
+        "Patrol the facility to enforce zero trespassing.",
+        "Observe and report incidents through use of security cameras."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Berkeley Lab",
+      "position": "Project Intern",
+      "website": "https://www.lbl.gov",
+      "startDate": "2023-06",
+      "endDate": "2023-07",
+      "summary": "Project Intern under ESnet's project CD06 - Finding New Data Visualizations for ESnet’s Network Flow Data.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Managed data by obtaining raw tables, cleaning up using sorting and pandas in Python.",
+        "Created new visualizations of data using graphs that haven't been used prior with Seaborn and Matplotlib.",
+        "Presented as a team to Berkeley's Director of K-12 STEM Education Programs, Project manager, Berkeley staff, and other interns"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "company": "Panda Express",
+      "position": "Customer Service Representative",
+      "website": "https://www.pandaexpress.com",
+      "startDate": "2021-08",
+      "endDate": "2022-07",
+      "summary": "Employee under FOH (Front of House) crew which primarily entailed welcoming customers, serving food, accepting payments, and maintaining the cleanliness of food and dining area.",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Team coordination and communication was of utmost importance in order to work in an efficient and timely, but safe manner.",
+        "Cleaned the entire restaurant after every shift."
       ]
     }
   ],
   "awards": [
     {
       "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "date": "2023-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Best in Category: Systems Software",
+      "date": "2023",
+      "awarder": "Windward Academy for Career and Technical Education",
+      "summary": "We won first place in my science fair project for the districts division. This allowed us to advance to the State science fair level."
+    },
+    {
+      "title": "Hawaii State Science and Engineering Fair Project Winner",
+      "date": "2023",
+      "awarder": "UH Manoa College of Engineering, Dr. Song K. Choi",
+      "summary": "We were given the opportunity to present our science fair project as highschool students alongside other college students from the UH Manoa College of Engineering."
     }
   ],
   "references": [
