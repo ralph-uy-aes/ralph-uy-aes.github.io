@@ -10,7 +10,7 @@ labels:
   - America
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/essays/stand.jpg">
+<img width="500px" class="rounded float-start pe-4" src="../img/essays/stand.jpg">
 
 American Nightmare
 
