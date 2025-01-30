@@ -13,9 +13,10 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/YmP5F.png">
 
-## Is there such thing as a stupid question?
+## We're all guilty of asking dumb questions.
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+Something worse than not being able to answer a question in class is not being able to think of a question in the first place. You put yourself in a very scary situation when you're so lost in a lecture that you can't even think of anything to ask. Whenever a professor asks if anyone has any questions and no one raises their hand, I wonder whether they think that it's because everyone understands the material perfectly or if they know that some people are just afraid of asking stupid questions. I myself am guilty of asking dumb questions, so are you, and so are some professors. Take this deceptive PEMDAS question for example:
+
 
 ## What’s a smart question?
 
