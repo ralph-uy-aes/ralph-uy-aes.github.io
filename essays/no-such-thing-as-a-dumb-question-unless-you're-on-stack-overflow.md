@@ -15,71 +15,112 @@ labels:
 
 ## We're all guilty of asking dumb questions.
 
-Something worse than not being able to answer a question in class is not being able to think of a question in the first place. You put yourself in a very scary situation when you're so lost in a lecture that you can't even think of anything to ask. Whenever a professor asks if anyone has any questions and no one raises their hand, I wonder whether they think that it's because everyone understands the material perfectly or if they know that some people are just afraid of asking stupid questions. I myself am guilty of asking dumb questions, so are you, and so are some professors. Take this deceptive PEMDAS question for example:
+Something worse than not being able to answer a question in class is not being able to think of a question in the first place. You put yourself in a very scary situation when you're so lost in a lecture that you can't even think of anything to ask. Whenever a professor asks if anyone has any questions and no one raises their hand, I wonder whether they think that it's because everyone understands the material perfectly or if they know that some people are just afraid of asking stupid questions. I myself am guilty of asking dumb questions, so are you, and so are some professors. Take this deceptive PEMDAS question for example.
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/PEMDAS.jpeg" style="vertical-align:middle;margin:50px 0px">
 You may think that this is trivial, but upon closer inspection, this is almost impossible without context.
 
 
 ## Smart Questions
 
-In Stack
+There's this really cool website that you can use to determine whether your question is dumb or not, it's called Stack Overflow. If you ask a smart question, you get upvoted and people actually answer your question. Otherwise, may God have mercy on your soul because the only responses you're going to get are downvotes, links to similar questions that have been answered before, people calling your question dumb, and other mean things. But, smart questions in Stack Overflow often have a few properties that are common between them. Let's analyze the following question about processing arrays in C++.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
-
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+[Link](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array)
+Before we even get to the question, the title already lays out everything we need to know about the nature of the question. Something I noticed whenever I make a post is that I like making the title vague to build some kind of tension and make viewers more intrigued, but this only really works for posts that are not meant to be queries. Unfortunately, a lot of users seem to make their titles too vague causing a lot of misunderstanding when people actually come to answer their questions.
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+Q:Why is processing a sorted array faster than processing an unsorted array?
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+In this C++ code, sorting the data (before the timed region) makes the primary loop ~6x faster:
 
-Like this:
+#include <algorithm>
+#include <ctime>
+#include <iostream>
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+int main()
+{
+    // Generate data
+    const unsigned arraySize = 32768;
+    int data[arraySize];
+
+    for (unsigned c = 0; c < arraySize; ++c)
+        data[c] = std::rand() % 256;
+
+    // !!! With this, the next loop runs faster.
+    std::sort(data, data + arraySize);
+
+    // Test
+    clock_t start = clock();
+    long long sum = 0;
+    for (unsigned i = 0; i < 100000; ++i)
+    {
+        for (unsigned c = 0; c < arraySize; ++c)
+        {   // Primary loop.
+            if (data[c] >= 128)
+                sum += data[c];
+        }
+    }
+
+    double elapsedTime = static_cast<double>(clock()-start) / CLOCKS_PER_SEC;
+
+    std::cout << elapsedTime << '\n';
+    std::cout << "sum = " << sum << '\n';
+}
+Without std::sort(data, data + arraySize);, the code runs in 11.54 seconds.
+With the sorted data, the code runs in 1.93 seconds.
+(Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)
+```
+
+As you can see, this question is formatted well enough that people decided that it is worthy of 27k upvotes and 25 answers. Likewise, the top answer has 35k upvotes and answers the question in sufficient detail. Analyzing the structure of his question, we can quickly observe that no other follow-up or unrelated questions are asked and the user only provides details of what exactly he meaant by his question. We see a fully-functional, replicable code as well as what he's tried and further conclusions. Another thing I've noticed based on my experience of asking questions in online forums is how people often never bother trying or experimenting with their system beforehand. People who respond to questions are quick to pick up on this and often ask whether you've tried doing this or that first before posting your question and 9 times out of 10, they haven't. So you should definitely try before you ask.
+
+```
+A: You are a victim of branch prediction fail.
+
+What is Branch Prediction?
+
+Consider a railroad junction:
+
+Image showing a railroad junction Image by Mecanismo, via Wikimedia Commons. Used under the CC-By-SA 3.0 license.
+
+Now for the sake of argument, suppose this is back in the 1800s - before long-distance or radio communication.
+
+You are a blind operator of a junction and you hear a train coming. You have no idea which way it is supposed to go. You stop the train to ask the driver which direction they want. And then you set the switch appropriately.
+
+Trains are heavy and have a lot of inertia, so they take forever to start up and slow down.
+
+Is there a better way? You guess which direction the train will go!
+
+If you guessed right, it continues on.
+If you guessed wrong, the driver will stop, back up, and yell at you to flip the switch. Then it can restart down the other path.
+If you guess right every time, the train will never have to stop.
+If you guess wrong too often, the train will spend a lot of time stopping, backing up, and restarting.
+
+Consider an if-statement: At the processor level, it is a branch instruction:
+
+if(x >= 128) compiles into a jump-if-less-than processor instruction.
+
+You are a processor and you see a branch. You have no idea which way it will go. What do you do? You halt execution and wait until the previous instructions are complete. Then you continue down the correct path.
+
+Modern processors are complicated and have long pipelines. This means they take forever to "warm up" and "slow down".
+
+Is there a better way? You guess which direction the branch will go!
+
+If you guessed right, you continue executing.
+If you guessed wrong, you need to flush the pipeline and roll back to the branch. Then you can restart down the other path.
+If you guess right every time, the execution will never have to stop.
+If you guess wrong too often, you spend a lot of time stalling, rolling back, and restarting.
+
+This is branch prediction. I admit it's not the best analogy since the train could just signal the direction with a flag. But in computers, the processor doesn't know which direction a branch will go until the last moment.
+
+How would you strategically guess to minimize the number of times that the train must back up and go down the other path? You look at the past history! If the train goes left 99% of the time, then you guess left. If it alternates, then you alternate your guesses. If it goes one way every three times, you guess the same...
+
+In other words, you try to identify a pattern and follow it. This is more or less how branch predictors work.
+
+Most applications have well-behaved branches. Therefore, modern branch predictors will typically achieve >90% hit rates. But when faced with unpredictable branches with no recognizable patterns, branch predictors are virtually useless.
+
+Further reading: "Branch predictor" article on Wikipedia.
 
 ```
  
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
 ## The foolproof way to get ignored.
 
 While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
