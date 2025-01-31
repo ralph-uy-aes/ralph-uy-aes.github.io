@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "What TYPE of SCRIPTing is This?!"
 # All dates must be YYYY-MM-DD format!
-date: 2024-01-22
+date: 2025-01-22
 published: true
 labels:
   - Software Engineering
