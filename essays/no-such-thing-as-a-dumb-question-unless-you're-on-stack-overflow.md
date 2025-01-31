@@ -122,7 +122,58 @@ Further reading: "Branch predictor" article on Wikipedia.
 ```
  
 ## Dumb and Dumber
+[LINK](https://stackoverflow.com/questions/31729613/why-while-do-while-and-for-loops-are-not-working)
+Now, let's look at a bad question. Here we have a user asking about why while, do-while, and for-loops are not working in his program. Immediately, this title should be a red flag for anyone willing to respond. First, it is too vague. There should be more details in the title and it shouldn't simply be pointing out such a broad error. The poster even acknowledges this in the body of the post, but still does nothing about it. Now, let's look at what we have to work with. We are given Java code that seems to have variables and classes written in a different language. This is fine, but looking closer, there is almost no format to the naming convention. But, this is a question about loops, so let's look at that. The loop looks fine, despite having bad formatting, but even the answers on the post don't see the issue clearly. This must be an issue that only the uploader can see. Perhaps its his system. The user would persist on saying that his issue still isn't fixed and would get heated in the comments. This is bad etiquette. You should ideally be nice to the people who are trying to help you.
 
+```
+Loop makes only a single iteration. It gives me 105.0 every single time, and it's supposed to do more iterations than just a single one. Also, I need to write more details because "my post is mostly code", but I can't say anything else because there's anything else to say, I guess.
+
+import java.util.Scanner;
+
+public class Esercizio {
+
+    public static void main(String[] args) {
+
+        int giorniDieciAnni, mesiDieciAnni, anniDieciAnni;
+        giorniDieciAnni = 365*10;
+        mesiDieciAnni = 12*10;
+        anniDieciAnni = 10;
+
+        System.out.println("");
+        System.out.println("Interessatoio!");
+        System.out.println("");
+        System.out.println("Scrivi un saldo, un interesse, e calcolero':");
+        System.out.println("");
+        System.out.println("Interesse annuale: una volta l'anno, per 10 anni.");
+        System.out.println("Interesse mensile: una volta al mese, per 10 anni.");
+        System.out.println("Interesse giornaliero: una volta al giorno per 10 anni.");
+        System.out.println("");
+        System.out.println("Scrivi un importo per il saldo: massimo due cifre decimali.");
+        System.out.println("");
+
+        Scanner tastiera = new Scanner(System.in);
+        double saldo, interesse, saldoAnnuale = 0, valoreInteresse = 0;
+        saldo = tastiera.nextDouble();
+
+        System.out.println("");
+        System.out.println("Inserire ora un tasso di interesse: massimo due cifre decimali.");
+        System.out.println("");
+
+        interesse = tastiera.nextDouble();
+        valoreInteresse = ((saldo/100)*interesse);
+        int conteggio = 1;
+
+        do {
+            saldoAnnuale = (saldo + valoreInteresse); 
+            conteggio++;
+            } while (conteggio <= 10);
+
+        System.out.println("Saldo Annuale Prova: " + saldoAnnuale);
+
+
+    }
+}
+```
 
 ## Conclusion
-
+Besides striving to provide substantial answers, we must also be willing to ask meaningful questions. When we ask meaningful questions, we must have first tried solving it ourselves because that is when we learn the most. Unfortunately, a lot of beginners give up too quickly and ask questions too soon. This is exactly why beginner questions on Stack Overflow often are the worst ones. Finally, we should also try to be patient with each other when we're engaged in a Q&A. Q&As should be seen as an opportunity to learn and teach, not berate or belittle. The greatest teachers I've had were often the ones that had a lot of patience.
