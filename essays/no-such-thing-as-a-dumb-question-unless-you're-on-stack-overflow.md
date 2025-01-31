@@ -16,6 +16,8 @@ labels:
 ## We're all guilty of asking dumb questions.
 
 Something worse than not being able to answer a question in class is not being able to think of a question in the first place. You put yourself in a very scary situation when you're so lost in a lecture that you can't even think of anything to ask. Whenever a professor asks if anyone has any questions and no one raises their hand, I wonder whether they think that it's because everyone understands the material perfectly or if they know that some people are just afraid of asking stupid questions. I myself am guilty of asking dumb questions, so are you, and so are some professors. Take this deceptive PEMDAS question for example:
+<img width="300px" class="rounded float-start pe-4" src="../img/essays/PEMDAS.jpeg">
+You may think that this is trivial, but upon closer inspection, this is almost impossible without context.
 
 
 ## What’s a smart question?
