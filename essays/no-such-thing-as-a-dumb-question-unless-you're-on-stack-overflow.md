@@ -121,7 +121,7 @@ Further reading: "Branch predictor" article on Wikipedia.
 
 ```
  
-## The foolproof way to get ignored.
+## Dumb and Dumber
 
 While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
 
