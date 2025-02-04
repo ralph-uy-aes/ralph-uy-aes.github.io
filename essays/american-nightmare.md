@@ -8,6 +8,7 @@ published: true
 labels:
   - Immigration
   - America
+  - American Dream
 ---
 
 <div class="text-center p-4">
