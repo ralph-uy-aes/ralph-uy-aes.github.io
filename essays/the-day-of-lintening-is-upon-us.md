@@ -11,14 +11,16 @@ labels:
   - Coding Standards
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/essays/eslintmeem.jpg" style="margin-top: 20px; margin-bottom: 20px;margin-left: 20px;">\
+<img width="300px" class="rounded float-start pe-4" src="../img/essays/eslintmeem.jpg" style="margin-top: 20px; margin-bottom: 20px;margin-left: 20px;">
+<br \>
 
 ## Everything Has Standards
 
 If you think about it, everything technically has standards. However, if I were to make one exception, I think art is the single thing that frees itself from standards. Art is a form of self-expression and it lends itself to many different personal interpretations. Likewise, if you were to take a piece from one artist and compare it to anothers you'd almost immediately notice that their styles differ greatly. Take for example, a painting by Monet: Water Lilies and Japanese Bridge.
+<br \>
 
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/waterlillies.png.jpg" style="padding-top: 20px; padding-bottom: 20px;">\
-
+<br \>
 I remember seeing this painting for the first time and the depiction of the water struck me. I asked myself how any viewer would look at it and confidently say "yep, that sure is a pond!" Now, take a painting by another artist, Munch: The Scream
 
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/thescream.jpg" style="padding-top: 20px; padding-bottom: 20px;">\
