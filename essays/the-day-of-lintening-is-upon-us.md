@@ -11,7 +11,7 @@ labels:
   - Coding Standards
 ---
 
-<img display: block; width="300px" class="rounded float-start pe-4" src="../img/essays/eslintmeem.jpg" style="padding-top: 20px; padding-bottom: 20px;">
+<img width="300px" class="rounded float-start pe-4" src="../img/essays/eslintmeem.jpg" style="padding-top: 20px; padding-bottom: 20px;">
 <br>
 ## Everything Has Standards
 
