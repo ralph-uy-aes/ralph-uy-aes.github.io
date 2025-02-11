@@ -17,13 +17,13 @@ labels:
 ## Everything Has Standards
 
 If you think about it, everything technically has standards. However, if I were to make one exception, I think art is the single thing that frees itself from standards. Art is a form of self-expression and it lends itself to many different personal interpretations. Likewise, if you were to take a piece from one artist and compare it to anothers you'd almost immediately notice that their styles differ greatly. Take for example, a painting by Monet: Water Lilies and Japanese Bridge.
-<br \>
 
-<img width="300px" class="rounded float-start pe-4" src="../img/essays/waterlillies.png.jpg" style="padding-top: 20px; padding-bottom: 20px;">\
+<img width="300px" class="rounded float-start pe-4" src="../img/essays/waterlillies.png.jpg" style="padding-top: 20px; padding-bottom: 20px;">
 <br \>
 I remember seeing this painting for the first time and the depiction of the water struck me. I asked myself how any viewer would look at it and confidently say "yep, that sure is a pond!" Now, take a painting by another artist, Munch: The Scream
 
-<img width="300px" class="rounded float-start pe-4" src="../img/essays/thescream.jpg" style="padding-top: 20px; padding-bottom: 20px;">\
+<img width="300px" class="rounded float-start pe-4" src="../img/essays/thescream.jpg" style="padding-top: 20px; padding-bottom: 20px;">
+<br \>
 
 If we ignore the person screaming in the foreground, we notice what seems to be a small gulf or some body of water in the background. But how do we interpret it to be water? There was no standard between these two paintings that established that water must look a certain way. Actually, Monet and Munch don't even use the same styles here. Monet used Impressionism which is a method that captures light and scenery using brighter colors whereas Munch used Expressionism which is a method that captures the internal turmoil or emotions of the artist by using intense colors and distortion. Yet, somehow we are able to interpret the bodies of water in the paintings exactly as their respective artists intended them to be at face value.
 
@@ -32,6 +32,7 @@ If we ignore the person screaming in the foreground, we notice what seems to be 
 Anyway, now that we're done with all that filler content... (just kidding it ties into coding standards). Can we interpret programming to be art? Can a piece of code be printed, framed, and hung up for others to appreciate its elegance? Maybe. But then wouldn't that have the implication that, as a piece of art, a piece of code need not abide by standards? What even is an elegant piece of code anyway? Is it code that follows ESLint standards to a T? If it is, then call me the Van Gogh of Typescript. No, I think that code can be elegant in its simplicity, design, and even history. Perhaps some chatbot I made for discord 7 years ago that barely worked isn't elegant in a senior dev's eyes, but for me its story entails friendship, trust, and collaboration. It is elegant to me. The interpretation of code as art is, much like paintings, often sourced from individual works. A controversial figure and legend on the internet is Terry A. Davis. His creation of HolyC and TempleOS as an indie developer with mental afflictions is nothing short of genius. If any developer has come close to creating true art in the form of code, I'd argue that it would have been him.
 
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/holyc.png" style="padding-top: 20px; padding-bottom: 20px;">
+<br \>
 
 ## Standards Are a Social Construct
 
