@@ -13,7 +13,7 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/eslintmeem.jpg" style="margin-top: 20px; margin-bottom: 20px;margin-left: 20px;">
 
-<p\></p>
+---
 
 ## Everything Has Standards
 
