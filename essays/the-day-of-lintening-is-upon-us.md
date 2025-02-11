@@ -19,7 +19,7 @@ If you think about it, everything technically has standards. However, if I were 
 
 <img width="340px" class="rounded float-start pe-4" src="../img/essays/waterlillies.png.jpg"><br/>
 
-Take for example, a painting by Monet: Water Lilies and Japanese Bridge. I remember seeing this painting for the first time and the depiction of the water struck me. I asked myself how any viewer would look at it and confidently say "yep, that sure is a pond!" Now, take a painting by another artist, Munch: The Scream<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+Take for example, a painting by Monet: Water Lilies and Japanese Bridge. I remember seeing this painting for the first time and the depiction of the water struck me. I asked myself how any viewer would look at it and confidently say "yep, that sure is a pond!" Now, take a painting by another artist, Munch: The Scream<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/thescream.jpg"><br/>
 
