@@ -11,7 +11,7 @@ labels:
   - Coding Standards
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/essays/eslintmeem.jpg"><br/>
+<img width="500px" class="rounded float-start pe-4" src="../img/essays/eslintmeem.jpg"><br/>
 
 ## Everything Has Standards
 
@@ -19,11 +19,11 @@ If you think about it, everything technically has standards. However, if I were 
 
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/waterlillies.png.jpg"><br/>
 
-I remember seeing this painting for the first time and the depiction of the water struck me. I asked myself how any viewer would look at it and confidently say "yep, that sure is a pond!" Now, take a painting by another artist, Munch: The Scream
+I remember seeing this painting for the first time and the depiction of the water struck me. I asked myself how any viewer would look at it and confidently say "yep, that sure is a pond!" Now, take a painting by another artist, Munch: The Scream<br/>
 
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/thescream.jpg"><br/>
 
-If we ignore the person screaming in the foreground, we notice what seems to be a small gulf or some body of water in the background. But how do we interpret it to be water? There was no standard between these two paintings that established that water must look a certain way. Actually, Monet and Munch don't even use the same styles here. Monet used Impressionism which is a method that captures light and scenery using brighter colors whereas Munch used Expressionism which is a method that captures the internal turmoil or emotions of the artist by using intense colors and distortion. Yet, somehow we are able to interpret the bodies of water in the paintings exactly as their respective artists intended them to be at face value.
+If we ignore the person screaming in the foreground, we notice what seems to be a small gulf or some body of water in the background. But how do we interpret it to be water? There was no standard between these two paintings that established that water must look a certain way. Actually, Monet and Munch don't even use the same styles here. Monet used Impressionism which is a method that captures light and scenery using brighter colors whereas Munch used Expressionism which is a method that captures the internal turmoil or emotions of the artist by using intense colors and distortion. Yet, somehow we are able to interpret the bodies of water in the paintings exactly as their respective artists intended them to be at face value.<br/>
 
 ## Coding Standards
 
