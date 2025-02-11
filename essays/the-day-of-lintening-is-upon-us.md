@@ -15,7 +15,7 @@ labels:
 
 ## Everything Has Standards
 
-If you think about it, everything technically has standards. However, if I were to make one exception, I think art is the single thing that frees itself from standards. Art is a form of self-expression and it lends itself to many different personal interpretations. Likewise, if you were to take a piece from one artist and compare it to anothers you'd almost immediately notice that their styles differ greatly. <br/>
+If you think about it, everything technically has standards. However, if I were to make one exception, I think art is the single thing that frees itself from standards. Art is a form of self-expression and it lends itself to many different personal interpretations. Likewise, if you were to take a piece from one artist and compare it to anothers you'd almost immediately notice that their styles differ greatly. <br/><br/><br/>
 
 <img width="340px" class="rounded float-start pe-4" src="../img/essays/waterlillies.png.jpg"><br/>
 
