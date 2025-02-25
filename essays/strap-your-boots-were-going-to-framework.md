@@ -24,7 +24,9 @@ Looking at the work of art on the left, we observe a man jaded, terrified even, 
 
 In the same image, we observe a couple of really scary men surrounded by UI frameworks. They resemble zombies that desperately want to infect you (or eat you). An HTML/CSS Purist fears and resist UI frameworks, whereas a UI framework junkie welcomes them with open arms, maybe too open. While I was looking for references for this essay, I found a weird stigma about JS developers jumping vehemently between various frameworks like my mom going back and forth between various Costco samples. To me, it seems as though people who are on this side of the fence love experimenting with new frameworks. I find this comparable to people who collect tools that they're only ever going to use once and then store in their garage. Someone who uses a lot of different frameworks will obviously find it easier to adapt their solution to different problems compared to someone who just prefers raw HTML and CSS. I believe that this is one of the main benefits of using UI frameworks.
 
-## Bootstrap 5
+## My Experience with Bootstrap 5
+
+Finally, I get to talk about my own experience instead of memes. My experience with Bootstrap 5 felt like I was on a rollercoaster. Not in the sense that it was exhilarating, very far from it actually (it was very boring and tedious). I was going back and forth between liking and disliking Bootstrap 5 because at some points I would think that just using pure CSS for margins and stuff like that would be so much easier, but I stayed true to the Bootstrap method of adding margins to class. But, I also liked Bootstrap whenever I had to make more complex UI elements such as navigation bars, containers, and even grids. I remember thinking to myself that doing this with just HTML and CSS would be a massive pain in the butt.
 
 ## Getting Meta
 
