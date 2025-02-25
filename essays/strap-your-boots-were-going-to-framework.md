@@ -16,7 +16,7 @@ labels:
 
 ## From the Perspective of an HTML/CSS Purist
 
-Looking at the work of art on the left, we observe
+Looking at the work of art on the left, we observe a man jaded by all the crazy UI frameworks invading his private domicile. He exclaims "I HATE FRAMEWORKS I HATE FRAMEWORKS I WANT PLAIN HTML/CSS/JS AND PHP BACK". Humor aside, the existence of this image raises the question of why is it that in a world with UI frameworks that claim to streamline the creation of and even visually improve websites, some people still resist and opt to stay true to tradition?
 
 ## Bootstrap 5
 
