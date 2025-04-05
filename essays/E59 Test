@@ -1,0 +1,93 @@
+---
+title: "E59: Learn to deploy a Nextjs app"
+published: true
+morea_id: experience-test-deployment-vercel
+morea_type: experience
+morea_summary: "Deploy nextjs-application-template-react to Vercel"
+morea_sort_order: 3
+morea_start_date: "2025-04-04T23:00:00"
+morea_labels:
+---
+
+# E59: Deploy nextjs-application-template
+
+For this experience, you will learn how to deploy the nextjs-application-template app to Vercel in order to make it available for anyone to use who has access to the Internet and a browser.  You will also learn how to monitor your "production" database at Vercel, and how to set up application performance monitoring.
+
+To do this, perform all the steps in the following readings in order:
+
+  1. [How to deploy a Nextjs application to Vercel](./reading-vercel.html).
+  2. [How to inspect your Postgresql database on Vercel using pgAdmin](https://dykraf.com/blog/connect-vercel-postgresql-into-pgadmin4)
+
+If you are getting errors, that you don't understand how to resolve, feel free to ask a #smart-question.
+
+### Submission
+
+By the date and time indicated on the Calendar page, please finish all of these steps. Create three screenshots:
+
+  1. Your Nextjs application (retrieved using a URL like "https://my-nextjs-application-rho.vercel.app/").
+  2. Your pgAdmin screen showing a connection to your Nextjs application.
+
+Post them to the #deployment channel.
+Collapse
+experience-test-deployment-vercel.md
+2 KB
+Here
+rui — 2:29 PM
+I should just send the updated one here right?
+Dan Port — 2:29 PM
+Yes
+I think this file needs to be updated too (or maybe more):
+---
+morea_id: reading-vercel
+morea_type: reading
+title: "Deploy a Nextjs app to Vercel"
+published: True
+morea_url:
+Expand
+message.txt
+6 KB
+rui — 2:31 PM
+Ok, Ill do that too. Does that one have to be done by today?
+Dan Port — 2:32 PM
+I think so because this is the one that suggests using PostgreSQL database in Vercel
+rui — 2:33 PM
+Oh ok then I can do that
+Dan Port — 2:33 PM
+Which apparently they don't offer anymore. Only through third-parties like Supabase 
+Please update it in the way that you managed to get it working 
+thanks Ralph!
+rui — 2:34 PM
+No problem, professor
+Dan Port — 2:34 PM
+This will help alot of people in the class 🙂
+﻿
+---
+title: "E59: Learn to deploy a Nextjs app"
+published: true
+morea_id: experience-test-deployment-vercel
+morea_type: experience
+morea_summary: "Deploy nextjs-application-template-react to Vercel"
+morea_sort_order: 3
+morea_start_date: "2025-04-04T23:00:00"
+morea_labels:
+---
+
+# E59: Deploy nextjs-application-template
+
+For this experience, you will learn how to deploy the nextjs-application-template app to Vercel in order to make it available for anyone to use who has access to the Internet and a browser.  You will also learn how to monitor your "production" database at Vercel, and how to set up application performance monitoring.
+
+To do this, perform all the steps in the following readings in order:
+
+  1. [How to deploy a Nextjs application to Vercel](./reading-vercel.html).
+  2. [How to inspect your Postgresql database on Vercel using pgAdmin](https://dykraf.com/blog/connect-vercel-postgresql-into-pgadmin4)
+
+If you are getting errors, that you don't understand how to resolve, feel free to ask a #smart-question.
+
+### Submission
+
+By the date and time indicated on the Calendar page, please finish all of these steps. Create three screenshots:
+
+  1. Your Nextjs application (retrieved using a URL like "https://my-nextjs-application-rho.vercel.app/").
+  2. Your pgAdmin screen showing a connection to your Nextjs application.
+
+Post them to the #deployment channel.
