@@ -24,11 +24,8 @@ In order to find the hostname, port, username, and password, go to your Vercel S
 {% include medium-img.html url="dashboard-supabase.png" %}
 
 The text highlighted in red is your Username.
-
 The text highlighted in blue is your Password (obfuscated here).
-
 The text highlighted in yellow is your Host name/ address.
-
 The text highlighted in green is your Port.
 
 If you are getting errors, that you don't understand how to resolve, feel free to ask a #smart-question.
