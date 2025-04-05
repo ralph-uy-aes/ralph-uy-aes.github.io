@@ -16,13 +16,13 @@ For this experience, you will learn how to deploy the nextjs-application-templat
 To do this, perform all the steps in the following readings in order:
 
   1. [How to deploy a Nextjs application to Vercel](./reading-vercel.html).
-  2. [How to inspect your Postgresql database on Vercel using pgAdmin](https://dykraf.com/blog/connect-vercel-postgresql-into-pgadmin4)
+  2. [How to inspect your Supabase database on Vercel using pgAdmin](https://dykraf.com/blog/connect-vercel-postgresql-into-pgadmin4)
 
 If you are getting errors, that you don't understand how to resolve, feel free to ask a #smart-question.
 
 ### Submission
 
-By the date and time indicated on the Calendar page, please finish all of these steps. Create three screenshots:
+By the date and time indicated on the Calendar page, please finish all of these steps. Create two screenshots:
 
   1. Your Nextjs application (retrieved using a URL like "https://my-nextjs-application-rho.vercel.app/").
   2. Your pgAdmin screen showing a connection to your Nextjs application.
