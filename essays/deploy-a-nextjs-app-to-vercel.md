@@ -19,7 +19,7 @@ The first few steps involve setting up your server at Vercel.
 
 ### 1. Sign up with Vercel
 
-First, go to [Vercel](https://vercel.com/) and click on the _**Sign Up**_ button to create an account.
+First, go to [Vercel](https://vercel.com/new) and click on the _**Continue with Github**_ button to create an account.
 
 {% include medium-img.html url="reading-vercel-1.png" %}
 
@@ -39,15 +39,17 @@ Click on the **Add New** button. Then choose project. Then in the "Import Git Re
 
 ### 4. Create a new PostgreSQL database in Vercel
 
-Click on the Storage tab. Then click the **Create Database** button. Choose the **PostgreSQL** option. Name your database.
+Click on the Storage tab. Then click the **Create Database** button. Choose the **Supabase** option. Name your database **nextjs-dashboard-postgres**.
 
 Click on the **Projects** tab. Then click on the **Connect Project** button. Choose the project you created in step 3.
 
 {% include medium-img.html url="reading-vercel-3.png" %}
 
+{% include medium-img.html url="reading-vercel-4.png" %}
+
 ### 5. Link your GitHub repository to Vercel
 
-We have to get the correct environment variables to connect to the Vercel PostgreSQL database.
+We have to get the correct environment variables to connect to the Vercel Supabase database.
 
 #### 5.1. Install the Vercel CLI
 
@@ -63,11 +65,11 @@ Run the following command in your terminal:
 
 ```
 $ vercel link
-Vercel CLI 37.14.0
-? Set up “~/GitHub/ICS314/my-nextjs-application”? yes
-? Which scope should contain your project? Cam Moore's projects
-? Found project “cam-moores-projects/my-nextjs-application”. Link to it? yes
-✅  Linked to cam-moores-projects/my-nextjs-application (created .vercel)
+Vercel CLI 41.4.1
+? Set up “~\GitHub\my-nextjs-application”? yes
+? Which scope should contain your project? ralph's projects
+? Found project “yourname-projects-923109w9/my-nextjs-application”. Link to it? yes
+✅  Linked to yourname-projects-923109w9/my-nextjs-application (created .vercel)
 $                         
 ```
 
@@ -75,7 +77,7 @@ Your output will be different, depending on your GitHub account and the name of 
 
 #### 5.3. Get the Vercel environment variables
 
-When you connected your `my-nextjs-application` project to the Vercel PostgreSQL database, Vercel created environment variables needed to connect to the database. You can see these environment variables in the Vercel dashboard.
+When you connected your `my-nextjs-application` project to the Vercel Supabase database, Vercel created environment variables needed to connect to the database. You can see these environment variables in the Vercel dashboard.
 
 {% include medium-img.html url="reading-vercel-4.png" %}
 
@@ -83,13 +85,14 @@ You can copy these environment variables to your `.env` file in your project. Or
 
 ```
 $ vercel env pull
-Vercel CLI 37.14.0
-> Downloading `development` Environment Variables for cam-moores-projects/my-nextjs-application
-✅  Created .env.local file  [137ms]
+Vercel CLI 41.4.1
+> Overwriting existing .env.local file
+> Downloading `development` Environment Variables for yourname-projects-923109w9/my-nextjs-application
+✅  Updated .env.local file  [162ms]
 $
 ```
 
-This command creates a `.env.local` file in your project directory. Do not commit this file to your repository.
+This command creates a `.env.local` file in your project directory. Do not commit this file to your repository. Rename it as `.env`
 
 ### 6. Set up Prisma to use the Vercel PostgreSQL database
 
@@ -108,7 +111,7 @@ datasource db {
 
 #### 6.1. Push the Prisma schema to the Vercel database
 
-To get the tables created in the Vercel PostgreSQL database, you need to push the Prisma schema to the database. Run the following command in your terminal:
+To get the tables created in the Vercel Supabase database, you need to push the Prisma schema to the database. Run the following command in your terminal:
 
 ```
 $ npx prisma db push
@@ -122,17 +125,13 @@ To seed the Vercel PostgreSQL database, run the following command in your termin
 $ npx prisma db seed
 ```
 
-You can check the database in the Vercel dashboard to see that the tables have been created and seeded.
-
-{% include medium-img.html url="reading-vercel-5.png" %}
-
 ### 7. Visit your project on Vercel
 
 Click on your project. You will see a screen that shows your project. 
-{% include medium-img.html url="reading-vercel-6.png" %}
+{% include medium-img.html url="reading-vercel-5.png" %}
 
 Click on the **Visit** button to see your project.
 
-{% include medium-img.html url="reading-vercel-7.png" %}
+{% include medium-img.html url="reading-vercel-6.png" %}
 
 Congratulations! You have successfully deployed your Nextjs application to Vercel.
