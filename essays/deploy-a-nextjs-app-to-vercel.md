@@ -19,7 +19,7 @@ The first few steps involve setting up your server at Vercel.
 
 ### 1. Sign up with Vercel
 
-First, go to [Vercel](https://vercel.com/new) and click on the _**Continue with Github**_ button to create an account.
+First, go to [Vercel](https://vercel.com/new) and click on the _**Continue with GitHub**_ button to create an account.
 
 {% include medium-img.html url="reading-vercel-1.png" %}
 
@@ -67,7 +67,7 @@ Run the following command in your terminal:
 $ vercel link
 Vercel CLI 41.4.1
 ? Set up “~\GitHub\my-nextjs-application”? yes
-? Which scope should contain your project? ralph's projects
+? Which scope should contain your project? yourname's projects
 ? Found project “yourname-projects-923109w9/my-nextjs-application”. Link to it? yes
 ✅  Linked to yourname-projects-923109w9/my-nextjs-application (created .vercel)
 $                         
@@ -92,7 +92,7 @@ Vercel CLI 41.4.1
 $
 ```
 
-This command creates a `.env.local` file in your project directory. Do not commit this file to your repository. Rename it as `.env`
+This command creates a `.env.local` file in your project directory. Do not commit this file to your repository. **Rename `.env.local` to `.env`**.
 
 ### 6. Set up Prisma to use the Vercel PostgreSQL database
 
@@ -119,7 +119,7 @@ $ npx prisma db push
 
 #### 6.2. Seed the Vercel database
 
-To seed the Vercel PostgreSQL database, run the following command in your terminal:
+To seed the Vercel Supabase database, run the following command in your terminal:
 
 ```
 $ npx prisma db seed
@@ -128,6 +128,7 @@ $ npx prisma db seed
 ### 7. Visit your project on Vercel
 
 Click on your project. You will see a screen that shows your project. 
+
 {% include medium-img.html url="reading-vercel-5.png" %}
 
 Click on the **Visit** button to see your project.
