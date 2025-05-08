@@ -15,59 +15,59 @@ labels:
 Ever since the dawn of AI, its role in education has been widely controversial and debated. The controversy arises in the notion that using AI in classwork that have otherwise not been designed around the use of AI in mind allows students to essentially get a free pass, thereby learning nothing. This brings us to the role of AI in Software Engineering, both in the classroom and in professional environments. Some concepts and AI etiquette I’ve used in this class were: not over-relying on AI, reading the entire generated output until I fully understood the solution, and choosing to ask vague queries rather than hyper-specific ones to make a more generalized solution. At the beginning of the semester, I stuck to using both ChatGPT as that’s what I’ve had the most experience with prior to this class. I would later switch to using both Deepseek and ChatGPT to get more answers, but would end up only using Deepseek entirely.
 
 ## II. Personal Experience with AI
-1. Experience WODs (workout of the day) e.g. E18
+A. Experience WODs (workout of the day) e.g. E18
 
 I did not use AI because this was supposed to be a learning exercise.
 
-2. In-class Practice WODs
+B. In-class Practice WODs
 
 I did not use AI because the practice WODs were very similar to the experience WODs.
 
-3. In-class WODs
+C. In-class WODs
 
 I used AI whenever I got stuck and felt that it was justified because this was an applied learning experience.
 
-4. Essays
+D. Essays
 
 I never used AI for the essays because I didn’t want AI, or anything for that matter, to be skewing my thoughts in writing. I didn’t check grammar with AI either because Google Docs has the in-line grammar error detection.
 
-5. Final project
+E. Final project
 
 I used AI for troubleshooting a lot of errors that came up whenever I couldn’t find a solution on StackOverflow. I also used AI to generate name ideas for our chatbot.
 
-6. Learning a concept / tutorial
+F. Learning a concept / tutorial
 
 While AI is convenient, I don’t think that it suffices to be a tool to teach you new concepts. It cannot substitute documentation, videos, and articles as of yet.
 
-7. Answering a question in class or in Discord
+G. Answering a question in class or in Discord
 
 I used AI whenever the professor asked us to look up what something meant or to ask questions to the AI to engage in in-class discussion.
 
-8. Asking or answering a smart-question
+H. Asking or answering a smart-question
 
 I never used AI to formulate responses to #smart-question. I felt like being an intermediary between AI and a classmate was sort of pointless.
 
-9. Coding example e.g. “give an example of using Underscore .pluck”
+I. Coding example e.g. “give an example of using Underscore .pluck”
 
 I never thought to use AI for generating coding examples.
 
-10. Explaining code
+J. Explaining code
 
 I didn’t need AI to explain code for this class as there really wasn’t too much complex syntax. I have used this for other classes like Algorithms, however.
 
-11. Writing code
+K. Writing code
 
 I did use AI to write code whenever I needed it to resolve an error.
 
-12. Documenting code
+L. Documenting code
 
 I didn’t use AI to document code because I didn’t need it.
 
-13. Quality assurance e.g. “What’s wrong with this code <code here>” or “Fix the ESLint errors in <code here>”
+M. Quality assurance e.g. “What’s wrong with this code <code here>” or “Fix the ESLint errors in <code here>”
 
 I didn’t use AI for quality assurance, ESLint checks did that for me.
 
-14. Other uses in ICS 314 not listed
+N. Other uses in ICS 314 not listed
 
 In a way, I also used AI to ask about careers in Software Development. I was never really interested in getting a career in Software Development, but this class definitely made me more open to the idea of it. I asked AI about the state of the job market in the technology sector, roadmaps I could take to increase the likelihood of landing a job, etc...
 
