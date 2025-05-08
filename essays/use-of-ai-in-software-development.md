@@ -16,33 +16,60 @@ Ever since the dawn of AI, its role in education has been widely controversial a
 
 ## II. Personal Experience with AI
 1. Experience WODs (workout of the day) e.g. E18
+
 I did not use AI because this was supposed to be a learning exercise.
+
 2. In-class Practice WODs
+
 I did not use AI because the practice WODs were very similar to the experience WODs.
+
 3. In-class WODs
+
 I used AI whenever I got stuck and felt that it was justified because this was an applied learning experience.
+
 4. Essays
+
 I never used AI for the essays because I didn’t want AI, or anything for that matter, to be skewing my thoughts in writing. I didn’t check grammar with AI either because Google Docs has the in-line grammar error detection.
+
 5. Final project
+
 I used AI for troubleshooting a lot of errors that came up whenever I couldn’t find a solution on StackOverflow. I also used AI to generate name ideas for our chatbot.
+
 6. Learning a concept / tutorial
+
 While AI is convenient, I don’t think that it suffices to be a tool to teach you new concepts. It cannot substitute documentation, videos, and articles as of yet.
+
 7. Answering a question in class or in Discord
+
 I used AI whenever the professor asked us to look up what something meant or to ask questions to the AI to engage in in-class discussion.
+
 8. Asking or answering a smart-question
+
 I never used AI to formulate responses to #smart-question. I felt like being an intermediary between AI and a classmate was sort of pointless.
+
 9. Coding example e.g. “give an example of using Underscore .pluck”
+
 I never thought to use AI for generating coding examples.
+
 10. Explaining code
+
 I didn’t need AI to explain code for this class as there really wasn’t too much complex syntax. I have used this for other classes like Algorithms, however.
+
 11. Writing code
+
 I did use AI to write code whenever I needed it to resolve an error.
+
 12. Documenting code
+
 I didn’t use AI to document code because I didn’t need it.
+
 13. Quality assurance e.g. “What’s wrong with this code <code here>” or “Fix the ESLint errors in <code here>”
+
 I didn’t use AI for quality assurance, ESLint checks did that for me.
+
 14. Other uses in ICS 314 not listed
-N/A
+
+In a way, I also used AI to ask about careers in Software Development. I was never really interested in getting a career in Software Development, but this class definitely made me more open to the idea of it. I asked AI about the state of the job market in the technology sector, roadmaps I could take to increase the likelihood of landing a job, etc...
 
 ## III. Impact on Learning and Understanding
 The use of AI in a class like this (or any coding class, for that matter) was very unique as there really is never a correct answer or one highly preferred way of doing things in this class. For example, in a class like calculus, there would only be one answer to the derivative of a function, however there are still many ways to get there. In this class, there are also many different ways to get to many different answers that are all equally correct. In other words, I believe that using AI has not stunted my learning progress because of how much nuance and complexity there is in software development (or any other coding class). I firmly believe that AI has in fact boosted my growth by streamlining the learning process by cutting out the parts that are menial and tedious and simplifying the parts that are too complex for my current skill level. It sort of acts like a catch-all net that makes learning concepts faster and more convenient. I still do believe that it cannot replace the human side of teaching which consists of documentation, videos, articles, and university; rather, let it be a supplement to learning.
