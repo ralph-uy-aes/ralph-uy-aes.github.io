@@ -11,13 +11,13 @@ labels:
   - Personal Experience
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/essays/do-something.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/essays/do-something.jpg">
 
 ## The Most Difficult Part of Software Development
 
 You can ask hundreds of software developers what the hardest part of software development is and you are likely to get 20+ unique answers. A novice might say the hardest part must be the coding part, it is very challenging to write software after all. For recent graduates, landing a job may be the hardest part. However, something that has been stressed over and over again in my software engineering class and what I've personally experienced is that managing a team to ensure an efficient workflow is without a doubt the hardest part of software development.
 
-<img width="300px" class="rounded float-start pe-4" src="../img/essays/arnold.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/essays/arnold.jpg">
 
 ## Anyone Can Write Code
 
