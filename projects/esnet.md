@@ -33,3 +33,14 @@ Some more images...
   <img width="500px" src="../img/esnet/personalstatement.jpg" class="img-thumbnail" >
   <img width="500px" src="../img/esnet/EinR2023-1b.jpg" class="img-thumbnail" >
 </div>
+
+## Tech Stack
+- Python 🐍
+- Seaborn 🌊
+- Numpy ➕
+- Jupyter Notebook 📒
+- Matplotlib 🟥
+
+## Links
+
+- Link to [ESNet Article](https://www.es.net/news-and-publications/esnet-news/2023/esnets-einr-summer-interns/)

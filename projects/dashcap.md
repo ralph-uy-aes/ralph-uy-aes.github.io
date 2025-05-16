@@ -25,8 +25,6 @@ For this project, I pretty much built the entire thing except for the AI part. I
 
 This project was presented in the Windward District Science Fair, Hawaii State Science Fair, and University of Hawaii at Manoa College of Engineering Banquet. It won Best in Category: Systems Software at the District level, and the UHM CoE HSSEF SR Project Winner Award of $300 at the State level. It also won us a few other textbooks and stuff for free.
 
-For a comprehensive presentation format (this is what we presented in the fair): https://docs.google.com/presentation/d/1zbPpv_gK2V0kT8allo0QWK3V9DzuUiySDSKHdsRcRtw/edit?usp=sharing
-
 Here is some source code...
 <div class="text-center p-4">
   <img width="200px" src="../img/dcap/sourcecode1.jpg" class="img-thumbnail" >
@@ -35,3 +33,15 @@ Here is some source code...
   <img width="200px" src="../img/dcap/sourcecode4.jpg" class="img-thumbnail" >
 </div>
 
+## Tech Stack
+- Kotlin 🟪
+- Firebase 🔥
+- Raspberry Pi 🍓
+- Android Studio 💚
+- OpenCV 👾
+- face_recognition 😶‍🌫️
+
+## Links
+
+- Link to [Slides](https://docs.google.com/presentation/d/1zbPpv_gK2V0kT8allo0QWK3V9DzuUiySDSKHdsRcRtw/edit?usp=sharing)
+- Link to [Github Repository](https://github.com/ralph-uy-aes/dashcap)
