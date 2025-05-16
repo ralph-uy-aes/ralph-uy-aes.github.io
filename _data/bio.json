@@ -4,14 +4,13 @@
     "label": "Student",
     "picture": "https://github.com/ralph-uy-aes.png",
     "email": "uyr@hawaii.edu",
-    "phone": "808-469-8963",
+    "phone": "808-123-4567",
     "website": "https://ralph-uy-aes.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026. I am currently leaning toward a greater focus on cybersecurity for my career.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "ralph-uy-aes", "url": "http://github.com/ralph-uy-aes" },
-      { "network": "linkedin", "username": "Ralph Uy", "url": "https://www.linkedin.com/in/ralph-uy-116188212/" },
-      { "network": "instagram", "username": "uys.cooti", "url": "https://www.instagram.com/uys.cooti/" }
+      { "network": "linkedin", "username": "Ralph Uy", "url": "https://www.linkedin.com/in/ralph-uy-116188212/" }
     ]
   },
   "interests": [
