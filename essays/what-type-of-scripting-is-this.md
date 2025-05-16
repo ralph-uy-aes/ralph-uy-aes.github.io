@@ -14,7 +14,7 @@ labels:
 <img width="500px" class="rounded float-start pe-4" src="../img/essays/tscomic.png">
 </div>
 
-## Why are the datatypes there?
+## Why are the Data Types There?
 For someone who came from a programming background that emphasizes highly strict datatype requirements, Typescript seems like a fever dream. It's funny because until now, having done all the tutorials and a couple WODs, I still put "int i = 0" in loops instead of "let i = 0". In Typescript, you can (but you don't have to) specify the data using a colon after the let statement and the name of the variable. This seems really counterintuitive in my opinion because older languages such as C do this by simply letting you type in every specifier before the variable name. Think "const int i = 0;" instead of "let i : number = 0;". I feel like mixing things up in this way makes it a little more confusing to format and it almost seems like a case of "if it ain't broke, don't fix it."
 
 ## Creating Functions
