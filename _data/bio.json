@@ -60,8 +60,8 @@
       "company": "Berkeley Lab",
       "position": "Project Intern",
       "website": "https://www.lbl.gov",
-      "startDate": "2023-06",
-      "endDate": "2023-07",
+      "startDate": "2023",
+      "endDate": "",
       "summary": "Project Intern under ESnet's project CD06 - Finding New Data Visualizations for ESnet’s Network Flow Data.",
       "highlights": [
         "Managed data by obtaining raw tables, cleaning up using sorting and pandas in Python.",
